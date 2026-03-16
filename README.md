@@ -41,8 +41,15 @@ This package allows you to control your standing desk, save/restore presets, adj
 
 Once loaded into Home Assistant, the following entities will be available:
 
-**Sensors:** Height Sensor, Speed Sensor, Preset Heights 1-4, Desk Name, Motor Direction, Moving Status.
-**Controls:** 
+### Sensors 
+  - Height Sensor
+  - Speed Sensor
+  - Preset Heights 1-4
+  - Desk Name
+  - Motor Direction
+  - Moving Status
+
+### Controls
   - **Number** : Input (Target Height)
   - **Buttons** : Move (Up/Down/Stop), Preset Buttons (Load/Save/Delete)
   - **Switches** : BLE Connection, Key Lock (Enable/Disable)
