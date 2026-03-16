@@ -1,6 +1,8 @@
 <!-- Control the Liank DPI1C via ESPHome in Home Assistant. -->
 # ESPhome LINAK DPI1C Control
 
+[DPI1C](https://www.linak-us.com/segments/deskline/start/dpi1c/)
+
 Bluetooth Low Energy (BLE) integration for LINAK DPI1C control using ESPHome.
 This package allows you to control your standing desk, save/restore presets, adjust the key lock settings, and monitor the desk's height and motor status directly from Home Assistant via ESPHome.
 
@@ -10,6 +12,8 @@ This package allows you to control your standing desk, save/restore presets, adj
 > **USE AT YOUR OWN RISK**
 > 
 > By using this custom integration, you acknowledge and accept all associated risks. The author is not responsible for any direct or indirect physical damage, hardware malfunctions, or voided warranties that may occur to your LINAK equipment.
+>
+> **This is an unofficial, personal project and is in no way affiliated with, endorsed by, or related to LINAK.**
 
 > [!WARNING]
 > **Single Desk per ESP32 Recommended**
